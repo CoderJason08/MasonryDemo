@@ -1,0 +1,21 @@
+//
+//  MansoryDemo.pch
+//  MansoryDemo
+//
+//  Created by Jason on 15/8/19.
+//  Copyright (c) 2015年 Jason. All rights reserved.
+//
+
+#ifndef MansoryDemo_MansoryDemo_pch
+#define MansoryDemo_MansoryDemo_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Masonry.h"
+
+//快速定义一个weakSelf用于Block中
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#endif
